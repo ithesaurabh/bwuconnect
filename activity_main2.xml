@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/building"
+    android:foregroundTint="#23E61F1F"
+    tools:context=".MainActivity2">
+
+    <Button
+        android:id="@+id/logo"
+        android:layout_width="253dp"
+        android:layout_height="116dp"
+        android:layout_marginStart="84dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="84dp"
+        android:background="#00000000"
+        android:fontFamily="@font/cinzel"
+        android:lineSpacingExtra="-12sp"
+        android:text="@string/logo"
+        android:textColor="#0C1479"
+        android:textSize="38sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="332dp"
+        android:layout_height="371dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.515"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logo">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:fontFamily="@font/antic"
+                android:text="Social"
+                android:textColor="#001165"
+                android:textSize="20sp" />
+
+            <HorizontalScrollView
+                android:layout_width="394dp"
+                android:layout_height="94dp"
+                android:padding="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <Button
+                        android:id="@+id/linkedin"
+                        android:layout_width="75dp"
+                        android:layout_height="75dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/linkedin"
+                        tools:ignore="SpeakableTextPresentCheck" />
+
+                    <Button
+                        android:id="@+id/button5"
+                        android:layout_width="15dp"
+                        android:layout_height="75dp"
+                        android:layout_weight="1"
+                        android:background="#00FFFFFF"
+                        android:clickable="false" />
+
+                    <Button
+                        android:id="@+id/twitter"
+                        android:layout_width="75dp"
+                        android:layout_height="75dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/twitter"
+                        tools:ignore="SpeakableTextPresentCheck" />
+
+                    <Button
+                        android:id="@+id/button3"
+                        android:layout_width="15dp"
+                        android:layout_height="75dp"
+                        android:layout_weight="1"
+                        android:background="#00FFFFFF"
+                        tools:ignore="TouchTargetSizeCheck" />
+
+                    <Button
+                        android:id="@+id/flickr"
+                        android:layout_width="75dp"
+                        android:layout_height="75dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/flickr"
+                        tools:ignore="SpeakableTextPresentCheck" />
+
+                    <Button
+                        android:id="@+id/button11"
+                        android:layout_width="15dp"
+                        android:layout_height="75dp"
+                        android:layout_weight="1"
+                        android:background="#00FFFFFF"
+                        tools:ignore="TouchTargetSizeCheck" />
+
+                    <Button
+                        android:id="@+id/insta"
+                        android:layout_width="75dp"
+                        android:layout_height="75dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/insta"
+                        tools:ignore="SpeakableTextPresentCheck" />
+
+                    <Button
+                        android:id="@+id/button7"
+                        android:layout_width="15dp"
+                        android:layout_height="75dp"
+                        android:layout_weight="1"
+                        android:background="#00FFFFFF" />
+
+                    <Button
+                        android:id="@+id/facebook"
+                        android:layout_width="75dp"
+                        android:layout_height="75dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/facebook"
+                        tools:ignore="SpeakableTextPresentCheck" />
+
+                    <Button
+                        android:id="@+id/button10"
+                        android:layout_width="15dp"
+                        android:layout_height="75dp"
+                        android:layout_weight="1"
+                        android:background="#00FFFFFF" />
+
+                    <Button
+                        android:id="@+id/youtube"
+                        android:layout_width="75dp"
+                        android:layout_height="75dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/youtube"
+                        android:foregroundTint="#919100" />
+
+                    <Button
+                        android:id="@+id/button4"
+                        android:layout_width="72dp"
+                        android:layout_height="75dp"
+                        android:layout_weight="1"
+                        android:background="#00FFFFFF" />
+
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+
+                android:fontFamily="@font/antic"
+                android:text="Study"
+                android:textColor="#FF001165"
+                android:textSize="20sp" />
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="94dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+
+                    <Button
+                        android:id="@+id/gmail"
+                        android:layout_width="75dp"
+                        android:layout_height="75dp"
+                        android:background="@drawable/gmail"
+                        tools:ignore="SpeakableTextPresentCheck" />
+
+                    <Button
+                        android:id="@+id/button"
+                        android:layout_width="15dp"
+                        android:layout_height="75dp"
+                        android:layout_weight="1"
+                        android:background="#00FFFFFF"
+                        tools:ignore="TouchTargetSizeCheck" />
+
+                    <Button
+                        android:id="@+id/library"
+                        android:layout_width="75dp"
+                        android:layout_height="75dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/library"
+                        tools:ignore="SpeakableTextPresentCheck" />
+
+                    <Button
+                        android:id="@+id/button2"
+                        android:layout_width="15dp"
+                        android:layout_height="75dp"
+                        android:layout_weight="1"
+                        android:background="#00FFFFFF"
+                        tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck" />
+
+                    <Button
+                        android:id="@+id/studenforum"
+                        android:layout_width="75dp"
+                        android:layout_height="75dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/bwud"
+                        tools:ignore="SpeakableTextPresentCheck" />
+
+                    <Button
+                        android:id="@+id/button6"
+                        android:layout_width="15dp"
+                        android:layout_height="75dp"
+                        android:layout_weight="1"
+                        android:background="#00FFFFFF"
+                        tools:ignore="TouchTargetSizeCheck" />
+
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+
+                android:fontFamily="@font/antic"
+                android:text="Infos"
+                android:textColor="#FF001165"
+                android:textSize="20sp" />
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="93dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+
+                    <Button
+                        android:id="@+id/calender"
+                        android:layout_width="75dp"
+                        android:layout_height="75dp"
+                        android:background="@drawable/calender"
+                        tools:ignore="SpeakableTextPresentCheck" />
+
+                    <Button
+                        android:id="@+id/button12"
+                        android:layout_width="15dp"
+                        android:layout_height="75dp"
+                        android:layout_weight="1"
+                        android:background="#00FFFFFF"
+                        tools:ignore="TouchTargetSizeCheck" />
+
+                    <Button
+                        android:id="@+id/holyday"
+                        android:layout_width="75dp"
+                        android:layout_height="75dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/contacts"
+                        tools:ignore="SpeakableTextPresentCheck" />
+
+                    <Button
+                        android:id="@+id/button14"
+                        android:layout_width="15dp"
+                        android:layout_height="75dp"
+                        android:layout_weight="1"
+                        android:background="#00FFFFFF"
+                        tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck" />
+
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <Button
+                android:id="@+id/about"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#42B9FE"
+
+                android:fontFamily="@font/bubblegum_sans"
+                android:text="About"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="487dp"
+        android:layout_height="278dp"
+        android:layout_marginBottom="-75dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/bilding_" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
